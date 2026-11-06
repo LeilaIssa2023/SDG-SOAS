@@ -1,0 +1,807 @@
+{
+  "schema_version": "1.0",
+  "scope": "CLO text only; no course-title inference",
+  "concepts": {
+    "poverty": [
+      "poverty",
+      "impoverished",
+      "income deprivation",
+      "social protection",
+      "homelessness"
+    ],
+    "food_security": [
+      "food insecurity",
+      "food security",
+      "hunger",
+      "malnutrition",
+      "agricultural resilience",
+      "sustainable food systems"
+    ],
+    "human_health": [
+      "health",
+      "human health",
+      "public health",
+      "population health",
+      "community health",
+      "community nutrition",
+      "patient care",
+      "health promotion",
+      "health outcomes",
+      "healthcare",
+      "health care",
+      "physical health",
+      "mental health",
+      "psychological health",
+      "wellbeing",
+      "well-being"
+    ],
+    "disease": [
+      "disease",
+      "illness",
+      "infection",
+      "infectious",
+      "pathogenic",
+      "pathogen",
+      "epidemiology",
+      "chronic condition",
+      "medical condition",
+      "clinical diagnosis",
+      "disease prevention",
+      "health screening",
+      "medical treatment",
+      "patient treatment",
+      "disease treatment"
+    ],
+    "education_practice": [
+      "pedagogy",
+      "teaching practice",
+      "teaching strategies",
+      "instructional design",
+      "lesson plan",
+      "classroom assessment",
+      "formative assessment",
+      "summative assessment",
+      "curriculum design",
+      "education policy",
+      "educational theory",
+      "learning experiences",
+      "early childhood",
+      "young children",
+      "school learners",
+      "k-12",
+      "pre-primary education",
+      "teaching methods",
+      "education theories"
+    ],
+    "education_equity": [
+      "inclusive education",
+      "educational access",
+      "learning disabilities",
+      "diverse learning needs",
+      "equitable education"
+    ],
+    "gender_equity": [
+      "gender discrimination",
+      "gender equality",
+      "gender inequity",
+      "women's rights",
+      "violence against women",
+      "sexism"
+    ],
+    "water": [
+      "drinking water",
+      "water quality",
+      "water contamination",
+      "water pollution",
+      "water scarcity",
+      "water cycle",
+      "water resources",
+      "wastewater",
+      "sanitation",
+      "water supply",
+      "hydrological cycle"
+    ],
+    "clean_energy": [
+      "renewable energy",
+      "solar energy",
+      "solar power",
+      "solar heater",
+      "solar cooker",
+      "solar thermal",
+      "energy efficiency",
+      "geothermal",
+      "wind energy",
+      "photovoltaic",
+      "clean energy"
+    ],
+    "work": [
+      "decent work",
+      "employment conditions",
+      "fair employment",
+      "labor rights",
+      "labour rights",
+      "fair wages",
+      "wage discrimination",
+      "wage disparities",
+      "hiring discrimination",
+      "occupational safety",
+      "workplace safety",
+      "worker protection",
+      "unemployment",
+      "job security"
+    ],
+    "innovation": [
+      "innovative",
+      "innovation",
+      "novel technology",
+      "novel software",
+      "emerging technology",
+      "emerging technologies",
+      "newly released technology",
+      "original technology",
+      "new technological",
+      "low-cost sensor",
+      "technological advancement"
+    ],
+    "technology": [
+      "software",
+      "technology",
+      "technologies",
+      "engineering",
+      "computational system",
+      "technical framework",
+      "sensor",
+      "scientific instrument",
+      "technological",
+      "digital platform",
+      "software architecture"
+    ],
+    "application": [
+      "develop",
+      "design",
+      "integrate",
+      "implement",
+      "deploy",
+      "prototype",
+      "build",
+      "apply",
+      "application",
+      "scalable",
+      "real-world",
+      "real world",
+      "optimize",
+      "engineering solution"
+    ],
+    "inequality": [
+      "inequality",
+      "inequalities",
+      "discrimination",
+      "migrant workers",
+      "social exclusion",
+      "unequal access",
+      "marginalized groups",
+      "disparities",
+      "equity gaps"
+    ],
+    "heritage": [
+      "cultural heritage",
+      "historic heritage",
+      "heritage sites",
+      "historic buildings",
+      "heritage"
+    ],
+    "heritage_protection": [
+      "preservation",
+      "preserve",
+      "conservation",
+      "conserve",
+      "safeguard",
+      "protect",
+      "restoration",
+      "restore",
+      "threats to",
+      "preserving"
+    ],
+    "disaster": [
+      "disaster response",
+      "disaster relief",
+      "disaster resilience",
+      "emergency relief",
+      "disaster risk",
+      "disaster preparedness"
+    ],
+    "local_governance": [
+      "local government",
+      "municipality",
+      "municipalities",
+      "urban planning",
+      "city planning"
+    ],
+    "resource_sustainability": [
+      "recycling",
+      "circular economy",
+      "waste minimization",
+      "sustainable consumption",
+      "resource efficiency",
+      "landfill",
+      "waste management",
+      "sustainable production"
+    ],
+    "climate": [
+      "climate change",
+      "global warming",
+      "greenhouse gas",
+      "greenhouse effect",
+      "carbon emissions",
+      "sea-level rise",
+      "sea level rise",
+      "climate adaptation",
+      "climate resilience",
+      "climate shifts"
+    ],
+    "marine": [
+      "marine biodiversity",
+      "ocean ecosystem",
+      "coral reef",
+      "fisheries conservation",
+      "ocean acidification",
+      "marine pollution",
+      "marine ecosystems"
+    ],
+    "terrestrial": [
+      "terrestrial ecosystem",
+      "habitat restoration",
+      "deforestation",
+      "biodiversity loss",
+      "ecosystem degradation",
+      "land degradation",
+      "ecosystem conservation",
+      "ecosystems",
+      "ecological systems"
+    ],
+    "environmental_impact": [
+      "human impact",
+      "anthropogenic impact",
+      "human activities",
+      "land use change",
+      "environmental degradation"
+    ],
+    "institutions": [
+      "access to justice",
+      "rule of law",
+      "human rights",
+      "peacebuilding",
+      "corruption",
+      "transparent institutions",
+      "public accountability",
+      "judicial reform"
+    ],
+    "external_partner": [
+      "industry professional",
+      "industry experts",
+      "industry jury",
+      "external stakeholder",
+      "external organization",
+      "non-governmental organization",
+      "ngo",
+      "community organization",
+      "municipality",
+      "internship",
+      "industry professionals",
+      "industry expert",
+      "external stakeholders"
+    ],
+    "external_engagement": [
+      "collaborate",
+      "partner",
+      "engage",
+      "outreach",
+      "present to",
+      "work with",
+      "joint project",
+      "internship",
+      "co-design",
+      "cooperate",
+      "engage with"
+    ],
+    "air_pollution": [
+      "air pollution",
+      "air pollutant",
+      "air pollutants",
+      "atmospheric pollution",
+      "particulate matter",
+      "airborne pollutants",
+      "air contamination",
+      "emission sources",
+      "pollutant transport"
+    ],
+    "urban_context": [
+      "urban",
+      "city",
+      "cities",
+      "municipal",
+      "metropolitan"
+    ],
+    "marine_pollution": [
+      "marine pollution",
+      "ocean pollution",
+      "marine debris",
+      "ocean contamination",
+      "sea pollution"
+    ],
+    "water_treatment": [
+      "water treatment",
+      "water purification",
+      "water filtration",
+      "water disinfection",
+      "wastewater treatment"
+    ],
+    "municipal_waste": [
+      "municipal solid waste",
+      "msw generation",
+      "solid waste generation",
+      "municipal waste"
+    ],
+    "health_application": [
+      "gene therapy",
+      "genetic therapy",
+      "therapeutic application",
+      "clinical genetics",
+      "pharmacokinetics",
+      "drug design",
+      "medicinal chemistry"
+    ],
+    "genetic_context": [
+      "gene",
+      "genes",
+      "genetic",
+      "genetics",
+      "chromosomal",
+      "inheritance",
+      "linkage"
+    ],
+    "equity_ethics": [
+      "digital inequality",
+      "algorithmic discrimination",
+      "algorithmic bias",
+      "digital exclusion",
+      "technology inequity"
+    ],
+    "computing_ethics": [
+      "computing ethics",
+      "computer ethics",
+      "ethical issues in computing",
+      "technology ethics",
+      "digital ethics"
+    ],
+    "contaminant": [
+      "contaminant",
+      "contaminants",
+      "contamination",
+      "pollutant",
+      "pollutants",
+      "toxic substances",
+      "chemical pollutants"
+    ],
+    "water_medium": [
+      "surface water",
+      "groundwater",
+      "ground water",
+      "aquifer",
+      "aquifers",
+      "water bodies",
+      "watercourse",
+      "watercourses"
+    ],
+    "soil_medium": [
+      "soil",
+      "soils",
+      "land contamination",
+      "contaminated land"
+    ],
+    "environmental_context": [
+      "environmental",
+      "environment",
+      "ecological",
+      "ecosystem"
+    ],
+    "environmental_action": [
+      "environmental management plan",
+      "environmental management plans",
+      "mitigation measures",
+      "environmental mitigation",
+      "impact mitigation",
+      "monitoring protocols",
+      "environmental monitoring",
+      "pollution control",
+      "impact reduction",
+      "reduce environmental impacts",
+      "mitigate environmental impacts",
+      "environmental remediation"
+    ],
+    "renewable_source": [
+      "solar",
+      "wind",
+      "hydro",
+      "hydropower",
+      "hydroelectric",
+      "biomass",
+      "geothermal",
+      "photovoltaic",
+      "tidal",
+      "wave power"
+    ],
+    "energy_conversion_context": [
+      "energy conversion",
+      "power generation",
+      "electricity generation",
+      "electricity production",
+      "energy efficiency",
+      "thermodynamic efficiency",
+      "conversion efficiency",
+      "renewable energy",
+      "energy production",
+      "power plant",
+      "energy technology",
+      "energy technologies"
+    ],
+    "renewable_infrastructure": [
+      "solar array",
+      "solar arrays",
+      "solar panel",
+      "solar panels",
+      "photovoltaic system",
+      "photovoltaic systems",
+      "photovoltaic array",
+      "photovoltaic arrays",
+      "photovoltaic installation",
+      "photovoltaic installations",
+      "wind turbine",
+      "wind turbines",
+      "wind farm",
+      "wind farms",
+      "solar farm",
+      "solar farms",
+      "solar power plant",
+      "solar power plants"
+    ]
+  },
+  "rules": [
+    {
+      "sdg": 1,
+      "id": "poverty",
+      "description": "Poverty and social protection",
+      "all_of": [
+        "poverty"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 2,
+      "id": "food",
+      "description": "Food security and hunger",
+      "all_of": [
+        "food_security"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 3,
+      "id": "health",
+      "description": "Human health and disease",
+      "all_of": [
+        "human_health"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 3,
+      "id": "disease",
+      "description": "Disease, prevention and treatment",
+      "all_of": [
+        "disease"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 4,
+      "id": "education",
+      "description": "Education practice and pedagogy",
+      "all_of": [
+        "education_practice"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 4,
+      "id": "education_equity",
+      "description": "Access and inclusive education",
+      "all_of": [
+        "education_equity"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 5,
+      "id": "gender",
+      "description": "Gender equity",
+      "all_of": [
+        "gender_equity"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 6,
+      "id": "water",
+      "description": "Water resources, quality and sanitation",
+      "all_of": [
+        "water"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 7,
+      "id": "energy",
+      "description": "Clean energy and efficiency",
+      "all_of": [
+        "clean_energy"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 8,
+      "id": "work",
+      "description": "Employment and decent work",
+      "all_of": [
+        "work"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 9,
+      "id": "innovation_application",
+      "description": "Applied technological innovation",
+      "all_of": [
+        "innovation",
+        "technology",
+        "application"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 10,
+      "id": "inequality",
+      "description": "Social inequality and discrimination",
+      "all_of": [
+        "inequality"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 11,
+      "id": "heritage",
+      "description": "Heritage safeguarding",
+      "all_of": [
+        "heritage",
+        "heritage_protection"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 11,
+      "id": "disaster_governance",
+      "description": "Local disaster resilience",
+      "all_of": [
+        "disaster",
+        "local_governance"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 12,
+      "id": "resources",
+      "description": "Sustainable resource use",
+      "all_of": [
+        "resource_sustainability"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 13,
+      "id": "climate",
+      "description": "Climate change and adaptation",
+      "all_of": [
+        "climate"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 14,
+      "id": "marine",
+      "description": "Marine ecosystems",
+      "all_of": [
+        "marine"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 15,
+      "id": "land",
+      "description": "Terrestrial ecosystems affected by human activity",
+      "all_of": [
+        "terrestrial",
+        "environmental_impact"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 15,
+      "id": "conservation",
+      "description": "Land biodiversity and habitat conservation",
+      "all_of": [
+        "terrestrial",
+        "heritage_protection"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 16,
+      "id": "justice",
+      "description": "Peace, justice and institutions",
+      "all_of": [
+        "institutions"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 17,
+      "id": "external",
+      "description": "External collaboration (institutional interpretation)",
+      "all_of": [
+        "external_partner",
+        "external_engagement"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 3,
+      "id": "air_pollution_health",
+      "description": "Air pollution as an environmental health hazard",
+      "all_of": [
+        "air_pollution"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 11,
+      "id": "urban_air_quality",
+      "description": "Air pollution in an urban context",
+      "all_of": [
+        "air_pollution",
+        "urban_context"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 14,
+      "id": "marine_pollution",
+      "description": "Marine pollution",
+      "all_of": [
+        "marine_pollution"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 6,
+      "id": "water_treatment",
+      "description": "Water treatment and purification",
+      "all_of": [
+        "water_treatment"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 12,
+      "id": "municipal_solid_waste",
+      "description": "Municipal solid waste generation and composition",
+      "all_of": [
+        "municipal_waste"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 3,
+      "id": "clinical_genetics",
+      "description": "Genetics with explicit therapeutic application",
+      "all_of": [
+        "genetic_context",
+        "health_application"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 10,
+      "id": "computing_equity",
+      "description": "Computing ethics addressing inequality",
+      "all_of": [
+        "computing_ethics",
+        "equity_ethics"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 6,
+      "id": "contaminant_water_medium",
+      "description": "Contaminants in surface water, groundwater or aquifers",
+      "all_of": [
+        "contaminant",
+        "water_medium"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 12,
+      "id": "applied_environmental_management",
+      "description": "Substantive applied environmental management, mitigation or monitoring",
+      "all_of": [
+        "environmental_context",
+        "environmental_action"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 7,
+      "id": "renewable_source_conversion",
+      "description": "Renewable energy source with explicit energy conversion, production, or efficiency context",
+      "all_of": [
+        "renewable_source",
+        "energy_conversion_context"
+      ],
+      "none_of": [],
+      "level": "goal"
+    },
+    {
+      "sdg": 7,
+      "id": "renewable_infrastructure_explicit",
+      "description": "Explicit renewable-energy equipment: solar arrays/panels, photovoltaic systems, wind turbines/farms",
+      "all_of": [
+        "renewable_infrastructure"
+      ],
+      "none_of": [],
+      "level": "goal"
+    }
+  ],
+  "caveat": "Concept vocabulary is curated and incomplete; goal-level only, not official target assignment.",
+  "version": "0.6-mac-test",
+  "notes": "v0.6: standalone whole-word health triggers SDG 3; confirmed negative food-habits/social-determinants example preserved. Development examples, not independent generalization evidence."
+}
